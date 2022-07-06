@@ -12,7 +12,7 @@
   font:15px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
   position:relative;
   background-color:white;
-  width:600px;
+  width:calc(100% - 360px);;
   min-width:calc(100% - 40px);;
   max-width:calc(100% - 40px);;
   margin-left:40px;
@@ -23,8 +23,7 @@
     }
 
 .mapboxgl-ctrl-geocoder input[type='text'] {
-  font-size:15px;
-  font-weight: bold;
+  font-size:12px;
   width:100%;
   border:0;
   background-color:transparent;
@@ -143,9 +142,9 @@
 
 /* Basics */
 .mapboxgl-ctrl-directions {
-  width: 100%;
+  width: 33.33333%;
   min-width: 300px;
-  max-width: 600px;
+  max-width: 300px;
 }
 .mapbox-directions-component {
   position: relative;
